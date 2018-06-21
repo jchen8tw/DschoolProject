@@ -145,8 +145,8 @@ def wait_for_echo(value, timeout,IN):
     count = timeout
     while GPIO.input(IN) != value and count > 0:
         count = count - 1
-song1="9.mp3"
-song2="8.mp3"
+song1="hi.mp3"
+song2="bye.mp3"
 def get_distance(a):
     if a==1:
         OUT=trigger_pin 
